@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.font-container {
+  font-family: "Montserrat", sans-serif;
+}
+.App {
+  text-align: center;
+}
+.landscapeSize {
+  max-width: 19px;
+  max-height: 19px;
+}
+.squareSize {
+  max-width: 5px;
+  max-height: 5px;
+}
+.portraitSize {
+  max-width: 4px;
+  max-height: 5px;
+}
+.storySize {
+  max-width: 6px;
+  max-height: 19px;
+}
