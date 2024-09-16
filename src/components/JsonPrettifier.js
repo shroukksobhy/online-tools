@@ -29,7 +29,7 @@ function JsonPrettifier() {
                     placeholder="Paste your JSON here"
                 ></textarea>
             </div>
-            <button className="btn btn-primary" onClick={handlePrettify}>
+            <button className="btn btn-primary mt-2" onClick={handlePrettify}>
                 Prettify JSON
             </button>
             <h3 className="mt-4">Pretty JSON:</h3>

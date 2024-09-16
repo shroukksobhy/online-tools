@@ -11,7 +11,7 @@ import ResizePhoto from './components/ResizePhoto';
 import InstgramFonts from './components/InstgramFonts';
 import StringSplitter from './components/StringSplitter';
 import JsonPrettifier from './components/JsonPrettifier';
-
+import PasswordGenerator from './components/PasswordGenerator';
 function App() {
   const linkStyle = {
     textDecoration: "none",
@@ -28,6 +28,7 @@ function App() {
             <Link to="/fonts" style={linkStyle}>Instagram Fonts</Link>
             <Link to="/stringSplitter" style={linkStyle}>String Splitter</Link>
             <Link to="/JsonPrettifier" style={linkStyle}>JSON Prettifier</Link>
+            <Link to="/passwordGenerator" style={linkStyle}>Generate Complex password</Link>
 
           </>
         </AppBar>
@@ -36,6 +37,7 @@ function App() {
           <Route path="/fonts" element={<InstgramFonts />} />
           <Route path="/stringSplitter" element={<StringSplitter />} />
           <Route path="/JsonPrettifier" element={<JsonPrettifier />} />
+          <Route path="/passwordGenerator" element={<PasswordGenerator />} />
 
         </Routes>
       </BrowserRouter>
