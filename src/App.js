@@ -12,6 +12,7 @@ import InstgramFonts from './components/InstgramFonts';
 import StringSplitter from './components/StringSplitter';
 import JsonPrettifier from './components/JsonPrettifier';
 import PasswordGenerator from './components/PasswordGenerator';
+import TextToPDF from './components/TextToPDF';
 function App() {
   const linkStyle = {
     textDecoration: "none",
@@ -29,6 +30,7 @@ function App() {
             <Link to="/stringSplitter" style={linkStyle}>String Splitter</Link>
             <Link to="/JsonPrettifier" style={linkStyle}>JSON Prettifier</Link>
             <Link to="/passwordGenerator" style={linkStyle}>Generate Complex password</Link>
+            <Link to="/txt-to-pdf" style={linkStyle}>TXT TO PDF</Link>
 
           </>
         </AppBar>
@@ -38,6 +40,7 @@ function App() {
           <Route path="/stringSplitter" element={<StringSplitter />} />
           <Route path="/JsonPrettifier" element={<JsonPrettifier />} />
           <Route path="/passwordGenerator" element={<PasswordGenerator />} />
+          <Route path="/txt-to-pdf" element={<TextToPDF />} />
 
         </Routes>
       </BrowserRouter>
